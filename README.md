@@ -1,4 +1,4 @@
-# The design patterns in clojure.
+# Design patterns in clojure.
 
 ## Implemented:
 

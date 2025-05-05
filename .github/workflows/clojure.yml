@@ -13,9 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Clojure
-      uses: DeLaGuardo/setup-clojure@11
+    - name: Install clojure tools
+      uses: DeLaGuardo/setup-clojure@13.2
       with:
-        tools-deps: '1.12.0.1530'
+        cli: '1.12.0.1530'
     - name: Run tests
       run: clojure -M:spec

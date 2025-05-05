@@ -8,3 +8,7 @@
 - Composite
 - Decorator
 - Visitor
+
+## To Do:
+
+- Observer
